@@ -5,11 +5,17 @@ import Link from '../link/Link.js'
 import Slidein from '../slidein/Slidein.js'
 import Sticky from './sticky/Sticky.js'
 import IconLink from '../iconLink/IconLink.js'
-import Image from 'next/image'
+import { useEffect } from 'react'
+
+var height = '100vh'
  
 function Header() {
+    useEffect(() => {
+        height = window.innerHeight
+    })
+
     return (
-        <div className={classes.header}>
+        <div className={classes.header} style={{ maxHeight: height }}>
             <div style={{ flexGrow: 1, display: 'flex', flexFlow: 'row wrap' }}>
                 <div style={{ display: 'flex', flexFlow: 'column nowrap' }}>
                     <Slidein>
