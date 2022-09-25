@@ -39,6 +39,7 @@ function Header() {
                 <div className={classes.imgContainer}>
                     <motion.img 
                         src='/pfp.png' 
+                        alt='Portrait of Nicky Brodbeck'
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
                         transition={{ delay: 1 }}
