@@ -24,12 +24,20 @@ a {
 .list-layout {
   flex-flow: row nowrap;
   display: flex;
-  justify-content: space-between;
 }
 
 .list-layout > * {
+  margin: 0 1em;
   display: inline;
   flex-shrink: 1;
+}
+
+.list-layout > *:first-child {
+  margin-left: 0;
+}
+
+.list-layout > *:last-child {
+  margin-right: 0;
 }
 
 .grid {
