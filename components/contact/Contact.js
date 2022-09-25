@@ -2,7 +2,7 @@ import classes from '../contentPage.module.css'
 import Accordion from '../accordion/Accordion.js'
 import Slidein from '../slidein/Slidein.js'
 import Link from '../link/Link.js'
-// Comment 5
+// Comment 6
 
 function Contact() {
     return (
