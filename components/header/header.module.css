@@ -22,11 +22,7 @@
     }
 
     .header .nav {
-        justify-content: space-between;
-    }
-
-    .header .nav * {
-        margin: 0;
+        justify-content: center;
     }
 }
 
