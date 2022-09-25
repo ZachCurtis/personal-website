@@ -5,13 +5,13 @@ import Link from '../link/Link.js'
 import Slidein from '../slidein/Slidein.js'
 import Sticky from './sticky/Sticky.js'
 import IconLink from '../iconLink/IconLink.js'
-import { useEffect } from 'react'
-
-var height = '100vh'
+import { useEffect, useState } from 'react'
  
 function Header() {
+    const [ height, setHeight ] = useState('100vh')
+
     useEffect(() => {
-        height = window.innerHeight
+        setHeight(window.innerHeight)
     })
 
     return (
