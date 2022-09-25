@@ -16,6 +16,8 @@
 @media (max-width: 767px) {
     .header * {
         align-content: space-evenly;
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
 
