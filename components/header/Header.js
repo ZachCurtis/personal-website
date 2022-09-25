@@ -5,6 +5,7 @@ import Link from '../link/Link.js'
 import Slidein from '../slidein/Slidein.js'
 import Sticky from './sticky/Sticky.js'
 import IconLink from '../iconLink/IconLink.js'
+import Image from 'next/image'
  
 function Header() {
     return (

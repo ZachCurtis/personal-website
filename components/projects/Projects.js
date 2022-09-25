@@ -26,7 +26,7 @@ function Projects(params) {
                         href='https://www.roblox.com/games/6851155308/Surviving-Sakura'
                     >
                         <ul>
-                            <li>Multiplayer horror game where 1 player is chosen to be the 'Killer' and the others must escape the building</li>
+                            <li>Multiplayer horror game where 1 player is chosen to be the &apos;Killer&apos; and the others must escape the building</li>
                             <li><b>Technologies used:</b>
                                 <ul>
                                     <li><b>Luau</b> scripting language</li>
@@ -46,7 +46,7 @@ function Projects(params) {
                         href='https://www.roblox.com/games/7071474933/Never-have-I-ever'
                     >
                         <ul>
-                            <li>Multiplayer game which follows the rules of the popular children's party game, 'Never Have I Ever'</li>
+                            <li>Multiplayer game which follows the rules of the popular children&apos;s party game, &apos;Never Have I Ever&apos;</li>
                             <li><b>Technologies used:</b>
                                 <ul>
                                     <li><b>Luau</b> scripting language</li>
@@ -144,8 +144,8 @@ function Projects(params) {
                         <ul>
                             <li>Personal website to showcase myself and my portfolio</li>
                             <li>Developed using <b>Next.js</b>, (a <b>React.js</b> framework) and written in <b>JavaScript/JSX</b> & <b>CSS</b></li>
-                            <li>Made use of Next.js's <b>Server-Side Rendering</b> capabilities</li>
-                            <li>Interacted with <b>Spotify's Developer API</b></li>
+                            <li>Made use of Next.js&apos;s <b>Server-Side Rendering</b> capabilities</li>
+                            <li>Interacted with <b>Spotify&apos;s Developer API</b></li>
                             <li>Used <motion.b style={{display:'inline-block'}} initial={{ color: '#ec4b4b' }} animate={{ color: '#4b4bec' }} transition={{ duration: 2, repeat: Infinity, repeatType: 'reverse'}}>Framer Motion</motion.b> for animations</li>
                         </ul>
                     </Project>

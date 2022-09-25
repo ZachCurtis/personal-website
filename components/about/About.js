@@ -12,9 +12,9 @@ function About({ topTracks, playingTrack, topShows }) {
                 <Slidein>
                     <h1>Who am I?</h1>
                 </Slidein>
-                <h3>I'm Nicky.</h3> 
+                <h3>I&apos;m Nicky.</h3> 
                 <p>
-                    I'm a student from Montréal, Québec, Canada and am currently pursuing a bachelor's degree in Computer Science 
+                    I&apos;m a student from Montréal, Québec, Canada and am currently pursuing a bachelor&apos;s degree in Computer Science 
                     at the University of Waterloo in Ontario, Canada. I expect to graduate by April 2026 and hope to work as a software engineer!
                     In the meantime, I am on the hunt for internships to gain me valuable industry experience.
                 </p>
@@ -26,7 +26,7 @@ function About({ topTracks, playingTrack, topShows }) {
                         <Music tracks={topTracks} />
                         {playingTrack && playingTrack.is_playing && (
                             <>
-                                <p>Right this instant, I'm listening to...</p>
+                                <p>Right this instant, I&apos;m listening to...</p>
                                 <Music tracks={[playingTrack.item]} />
                             </>
                         )}
@@ -36,7 +36,7 @@ function About({ topTracks, playingTrack, topShows }) {
                         <Music tracks={topShows} />
                     </Accordion>
                     <Accordion title='What Sports Do I Play?'>
-                            <p>While I'm not currently apart of any organized sports team, some sports I enjoy are:</p>
+                            <p>While I&apos;m not currently apart of any organized sports team, some sports I enjoy are:</p>
                             <ul>
                                 <li>Swimming</li>
                                 <li>Waterpolo</li>
