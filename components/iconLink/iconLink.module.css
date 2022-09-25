@@ -1,0 +1,13 @@
+.iconLink {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.iconLink:first-child {
+    margin-left: 0;
+}
+
+.iconLink img {
+    height: 1.5rem;
+    cursor:pointer
+}

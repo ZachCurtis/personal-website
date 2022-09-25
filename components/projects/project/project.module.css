@@ -1,0 +1,18 @@
+.project {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.project img {
+    border-radius: 25%;
+    border: 2px solid #15133C;
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.project a {
+    font-size: 1rem;
+    font-weight: bold;
+}

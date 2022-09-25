@@ -1,0 +1,11 @@
+.footer {
+    /* background-color: #73777B;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png"); */
+    text-align: center;
+    /* color: #F1EEE9; */
+    color: #15133C;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    font-weight: bold;
+}

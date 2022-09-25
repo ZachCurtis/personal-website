@@ -1,26 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #F1EEE9;
+  color: #15133C;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.list-layout {
+  flex-flow: row nowrap;
+  display: flex;
+}
+
+.list-layout > * {
+  margin: 0 1em;
+  display: inline;
+  flex-shrink: 1;
+}
+
+.list-layout > *:first-child {
+  margin-left: 0;
+}
+
+.list-layout > *:last-child {
+  margin-right: 0;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; 
+  align-items: flex-start
+}
+
+.code-container {
+  font-size: 1rem;
+  overflow-x: auto;
+  background-color: #DCDBDB; 
+  border-left: 4px solid #15133C;
+  padding: 1rem;
+  border-radius: 0 12px 12px 0;
 }

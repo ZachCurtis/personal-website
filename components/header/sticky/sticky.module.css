@@ -1,0 +1,13 @@
+.sticky {
+    position: fixed;
+    padding: 0 10vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #15133C; /* #73777B; */
+    background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png"); /*url("https://www.transparenttextures.com/patterns/arches.png"); */
+    z-index: 1;
+    max-width: 100%;
+    margin: 0;
+    overflow-y: hidden;
+}

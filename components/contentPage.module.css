@@ -1,0 +1,15 @@
+.contentPage .contents {
+    margin: 0 auto;
+    padding: 5vw 10vw;
+    max-width: 1000px;
+    flex-flow: row wrap;
+    min-height: 100vh;
+    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+
+}
+
+.contentPage h1 {
+    color: #EC994B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5em;
+}
