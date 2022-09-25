@@ -4,7 +4,7 @@
     max-width: 1000px;
     flex-flow: row wrap;
     min-height: 100vh;
-    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+    background-image: url('/connected.png');
 
 }
 
