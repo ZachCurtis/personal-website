@@ -30,10 +30,12 @@ function Accordion({ title, children, small }) {
                     open: {
                         opacity: 1,
                         height: 'auto',
+                        marginTop: '1rem'
                     },
                     closed: {
                         opacity: 0,
                         height: 0,
+                        marginTop: 0
                     }
                 }}
             >
