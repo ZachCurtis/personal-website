@@ -35,7 +35,7 @@ function Accordion({ title, children, small }) {
                     closed: {
                         opacity: 0,
                         height: 0,
-                        marginTop: 0,
+                        marginTop: 0
                     }
                 }}
             >

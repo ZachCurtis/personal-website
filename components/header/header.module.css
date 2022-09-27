@@ -16,11 +16,17 @@
 @media (max-width: 767px) {
     .header * {
         align-content: space-evenly;
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
 
     .header .nav {
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .imgContainer {
+        margin: min(5rem, 10vw);
     }
 }
 
@@ -54,7 +60,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: min(5rem, 10vw);
+    margin: min(2.5rem, 5vw);
     max-height: 50vh;
 }
 

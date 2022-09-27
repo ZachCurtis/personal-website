@@ -36,7 +36,7 @@ function About({ topTracks, playingTrack, topShows }) {
                         <Music tracks={topShows} />
                     </Accordion>
                     <Accordion title='What Sports Do I Play?'>
-                            <p>While I&apos;m not currently apart of any organized sports team, some sports I enjoy are:</p>
+                            <p>Some sports I enjoy in my free time are:</p>
                             <ul>
                                 <li>Swimming</li>
                                 <li>Waterpolo</li>

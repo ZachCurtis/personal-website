@@ -138,7 +138,7 @@ function Projects(params) {
                     {/* Website */}
                     <Project
                         title='This Website!'
-                        linkText='Published October 2022'
+                        linkText='Published September 2022'
                         href=''
                     >
                         <ul>
