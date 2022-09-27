@@ -17,7 +17,7 @@ function Contact() {
                 <ul>
                     <li><Link href='https://www.linkedin.com/in/nbrodbeck/'>LinkedIn</Link></li>
                     <li><Link href='https://instagram.com/nicky_brod'>Instagram</Link></li>
-                    <li><Link href='https://github.com/cowsoncows'>GitHub</Link></li> 
+                    <li><Link href='https://github.com/nbrodbec'>GitHub</Link></li> 
                 </ul>
                 <h3>Need to encrypt your communication with me?</h3>
                 <Accordion title='Use my public key'>
