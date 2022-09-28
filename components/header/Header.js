@@ -30,7 +30,7 @@ function Header() {
                     </Slidein>
                     <Slidein delay={0.5}>
                         <div style={{ flexFlow: "row wrap" }}>
-                            <IconLink href={"https://github.com/cowsoncows"} src={"/GitHub-Mark.svg"}/>
+                            <IconLink href={"https://github.com/nbrodbec"} src={"/GitHub-Mark.svg"}/>
                             <IconLink href={"https://www.linkedin.com/in/nbrodbeck/"} src={"/Linkedin-Mark.svg"} />
                             <IconLink href={"https://instagram.com/nicky_brod"} src={"/Instagram-Mark.svg"} />
                         </div>
