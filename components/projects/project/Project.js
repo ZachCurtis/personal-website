@@ -7,7 +7,7 @@ function Project({ title, img, children, linkText, href }) {
         <Accordion small title={title}>
             <div className={classes.project}>
                 {img && <img src={img} />}
-                {linkText && <Link href={href}>{linkText}</Link>}
+                {linkText && <Link href={href} color='#15133C'>{linkText}</Link>}
                 {children}
             </div>
         </Accordion>
