@@ -11,9 +11,11 @@ function Skills(props) {
                 <Slidein>
                     <h1 style={{textAlign: 'left'}}>Skills</h1>
                 </Slidein>
-                <div>
-                    <h3 className={skillStyle.skill}>Test</h3>
-                </div>
+                <Skill>Test</Skill>
+                <Skill>A</Skill>
+                <Skill>Yellow Leather Belt</Skill>
+                <Skill>Short Word</Skill>
+                <Skill>Loooooooooooooooooooong Woooooooooooord</Skill>
             </div>
         </div>
     ) 
