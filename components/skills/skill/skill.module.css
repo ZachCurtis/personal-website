@@ -1,0 +1,10 @@
+.skillContainer {
+
+}
+
+.skill {
+    color: white;
+    background-color: #15133C;
+    border-radius: 25%;
+    display: inline-block;
+}
