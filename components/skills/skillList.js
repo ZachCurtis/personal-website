@@ -1,5 +1,5 @@
 export default [
-    "React.js",
+    "React",
     "Next.js",
     "JavaScript",
     "HTML",
