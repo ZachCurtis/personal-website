@@ -12,7 +12,7 @@ function Skills(props) {
                 <Slidein fromRight>
                     <h1 style={{textAlign: 'right'}}>Skills</h1>
                 </Slidein>
-                <div className={skillStyle.skillContainer} style={{minHeight: 0}}>
+                <div className={skillStyle.skillContainer} style={{minHeight: '0vh'}}>
                     {skillList.map( (v) => 
                     <Skill key={v}>
                         {v}

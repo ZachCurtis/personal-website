@@ -50,6 +50,7 @@ function Header() {
                 <div className={`${classes.nav} list-layout`}>
                     <Link href="#about">About Me</Link>
                     <Link href="#projects">Projects</Link>
+                    <Link href="#skills">Skills</Link>
                     <Link href="#contact">Contact</Link>
                 </div>
             </Sticky>
