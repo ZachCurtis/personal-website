@@ -6,7 +6,7 @@ function Skill(props) {
         <motion.h3 
             className={styles.skill}
             initial={{ scale: 1, rotateZ: 0}}
-            whileHover={{ scale: 1.25, rotateZ: 10}}
+            whileHover={{ scale: 1.05, rotateZ: 5}}
         >
             {props.children}
         </motion.h3>
