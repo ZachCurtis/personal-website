@@ -15,3 +15,9 @@
     padding: 0.5em;
     margin: 0.25em;
 }
+
+@media (max-width: 767px) {
+    .skillContainer {
+        justify-content: center;
+    }
+}
