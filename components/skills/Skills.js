@@ -3,6 +3,7 @@ import Skill from './skill/Skill.js'
 import Slidein from '../slidein/Slidein.js'
 import classes from '../contentPage.module.css'
 import skillStyle from './skill/skill.module.css'
+import skillList from './skillList.js'
 
 function Skills(props) {
     return(
@@ -12,11 +13,9 @@ function Skills(props) {
                     <h1 style={{textAlign: 'left'}}>Skills</h1>
                 </Slidein>
                 <div className={skillStyle.skillContainer}>
-                    <Skill>Test</Skill>
-                    <Skill>A</Skill>
-                    <Skill>Yellow Leather Belt</Skill>
-                    <Skill>Short Word</Skill>
-                    <Skill>Loooooooooooooooooooong Woooooooooooord</Skill>
+                    {skillList.map( v => <Skill>
+                        {v}
+                    </Skill> )}
                 </div>
             </div>
         </div>
