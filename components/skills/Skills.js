@@ -8,11 +8,11 @@ import skillList from './skillList.js'
 function Skills(props) {
     return(
         <div className={classes.contentPage} id="skills">
-            <div className={classes.contents}>
+            <div className={classes.contents} style={{minHeight: '0vh'}}>
                 <Slidein fromRight>
                     <h1 style={{textAlign: 'right'}}>Skills</h1>
                 </Slidein>
-                <div className={skillStyle.skillContainer} style={{minHeight: '0vh'}}>
+                <div className={skillStyle.skillContainer}>
                     {skillList.map( (v) => 
                     <Skill key={v}>
                         {v}
