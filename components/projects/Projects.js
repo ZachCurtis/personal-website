@@ -26,12 +26,13 @@ function Projects(params) {
                                 img={project.img}
                                 linkText={project.linkText}
                                 href={project.href}
+                                key={project.title}
                             >
                                 <ul>
-                                    {project.bullets.map(bullet => <li key={project.title}>{bullet}</li>)}
+                                    {project.bullets.map((bullet, i) => <li key={`bullet${i}`}>{bullet}</li>)}
                                     <li><b>Technologies used:</b>
                                         <ul>
-                                            {project.tech.map(tech => <li key={project.title}>{tech}</li>)}
+                                            {project.tech.map((tech, i) => <li key={`tech${i}`}>{tech}</li>)}
                                         </ul>
                                     </li>
                                 </ul>
