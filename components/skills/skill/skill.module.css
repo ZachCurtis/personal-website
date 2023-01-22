@@ -1,0 +1,28 @@
+.skillContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.skill {
+    color: white;
+    background-color: #15133C;
+    border-radius: 0.5em;
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.25em;
+    z-index: 1;
+}
+
+.skill:hover {
+    z-index: 2;
+}
+
+@media (max-width: 767px) {
+    .skillContainer {
+        justify-content: center;
+    }
+}

@@ -22,7 +22,7 @@ function About({ topTracks, playingTrack, topShows }) {
                 <h3>Want to know more?</h3>
                 <div className='grid'>
                     <Accordion title="What Kind of Music Do I Like?">
-                        <p>In the last 4 weeks, my top songs on <Link href='https://open.spotify.com/user/1yblwfww13uw55zkxwfcsftix?si=a222118201384056'>Spotify</Link> have been...</p>
+                        <p>In the last 4 weeks, my top songs on <Link href='https://open.spotify.com/user/1yblwfww13uw55zkxwfcsftix?si=a222118201384056' color='#15133C'>Spotify</Link> have been...</p>
                         <Music tracks={topTracks} />
                         {playingTrack && playingTrack.is_playing && (
                             <>

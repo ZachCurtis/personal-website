@@ -8,8 +8,8 @@ function Contact() {
     return (
         <div className={classes.contentPage} id="contact">
             <div className={classes.contents}>
-                <Slidein>
-                    <h1>Contact Me</h1>
+                <Slidein fromRight>
+                    <h1 style={{textAlign: 'right'}}>Contact Me</h1>
                 </Slidein>
                 <p>
                     Connect with me on:

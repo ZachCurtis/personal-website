@@ -9,8 +9,8 @@ function Projects(params) {
     return (
         <div className={classes.contentPage} id="projects">
             <div className={classes.contents}>
-                <Slidein fromRight >
-                    <h1 style={{textAlign: 'right'}}>Projects</h1>
+                <Slidein>
+                    <h1>Projects</h1>
                 </Slidein>
                 <p>
                     One of my biggest hobbies is game development. In fact, making games was what got me interested in programming in the first place!
