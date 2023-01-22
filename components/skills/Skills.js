@@ -3,7 +3,7 @@ import Skill from './skill/Skill.js'
 import Slidein from '../slidein/Slidein.js'
 import classes from '../contentPage.module.css'
 import skillStyle from './skill/skill.module.css'
-import skillList from './skillList.js'
+import skillList from '../../public/skills.json'
 
 function Skills(props) {
     return(
