@@ -28,10 +28,10 @@ function Projects(params) {
                                 href={project.href}
                             >
                                 <ul>
-                                    {project.bullets.map(bullet => <li>{bullet}</li>)}
+                                    {project.bullets.map(bullet => <li key={project.title}>{bullet}</li>)}
                                     <li><b>Technologies used:</b>
                                         <ul>
-                                            {project.tech.map(tech => <li>{tech}</li>)}
+                                            {project.tech.map(tech => <li key={project.title}>{tech}</li>)}
                                         </ul>
                                     </li>
                                 </ul>

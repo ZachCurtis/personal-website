@@ -12,7 +12,7 @@ function Header() {
 
     useEffect(() => {
         setHeight(window.innerHeight)
-    })
+    }, [])
 
     return (
         <div className={classes.header} style={{ maxHeight: height }}>

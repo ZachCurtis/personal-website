@@ -17,6 +17,7 @@ function Accordion({ title, children, small }) {
                 width: small ? '300px' : '100%',
                 margin: small ? '0.5rem' : '0.5rem 0'
             }}
+            key={title}
         >
             <div className={classes.header} onClick={() => setIsOpen(!isOpen)}>
                 <h3 style={{ flexGrow: 1}}>{title}</h3>
