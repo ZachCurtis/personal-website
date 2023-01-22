@@ -1,0 +1,129 @@
+[
+    {
+        "title": "Surviving Sakura",
+        "img": "https://tr.rbxcdn.com/b7e0d5b0e84e2299641f3cbb144dd51a/150/150/Image/Png",
+        "linkText": "Released May 2021",
+        "href": "https://www.roblox.com/games/6851155308/Surviving-Sakura",
+        "bullets": [
+            "Multiplayer horror game where 1 player is chosen to be the &apos;Killer&apos; and the others must escape the building",
+            "Over 5 million plays",
+            "~70 concurrent users"
+        ],
+        "tech": [
+            "Luau scripting language",
+            "Roblox Studio",
+            "Visual Studio Code"
+        ]
+    },
+    {
+        "title": "Never Have I Ever",
+        "img": "https://tr.rbxcdn.com/128012e2cb7cae23009d8e88c2f00d62/150/150/Image/Png",
+        "linkText": "Released July 2021",
+        "href": "https://www.roblox.com/games/7071474933/Never-have-I-ever",
+        "bullets": [
+            "Multiplayer game which follows the rules of the popular children&apos;s party game, &apos;Never Have I Ever&apos;",
+            "Over 31 million plays",
+            "~200 concurrent users"
+        ],
+        "tech": [
+            "Luau scripting language",
+            "Roblox Studio",
+            "Visual Studio Code"
+        ]
+    },
+    {
+        "title": "Spin the Bottle",
+        "img": "https://tr.rbxcdn.com/059a04c591d94e1497a04c39acf6f963/150/150/Image/Png",
+        "linkText": "Released November 2021",
+        "href": "https://www.roblox.com/games/7133467811/Anime-Spin-the-Bottle",
+        "bullets": [
+            "Russian-Roulette-styled game where players take turns choosing another player to fire a gun at, hoping to eliminate them and be the last player standing",
+            "Over 36 million plays",
+            "~500 concurrent users"
+        ],
+        "tech": [
+            "Luau scripting language",
+            "Roblox Studio",
+            "Visual Studio Code",
+            "Git"
+        ]
+    },
+    {
+        "title": "Put a Finger Down",
+        "img": "https://tr.rbxcdn.com/6251bc89e8a7e2a29307152daec450b9/150/150/Image/Png",
+        "linkText": "Released January 2022",
+        "href": "https://www.roblox.com/games/8434554277/Put-A-Finger-Down",
+        "bullets": [
+            "Multiplayer party game where players are given a prompt and they must put a finger down if it applies to them",
+            "Over 8.8 million plays",
+            "~200 concurrent users"
+        ],
+        "tech": [
+            "Luau scripting language",
+            "Roblox Studio",
+            "Visual Studio Code"
+        ]
+    },
+    {
+        "title": "Exposed!",
+        "img": "https://tr.rbxcdn.com/703ad9c3d3f6774e07f7ca035ce410b0/150/150/Image/Png",
+        "linkText": "Released November 2021",
+        "href": "https://www.roblox.com/games/8002617744/Exposed",
+        "bullets": [
+            "Multiplayer party game where players are given a question which they must answer, and then players vote for the best answer among the group",
+            "Over 10 million plays",
+            "~200 concurrent users"
+        ],
+        "tech": [
+            "Luau scripting language",
+            "Roblox Studio",
+            "Visual Studio Code"
+        ]
+    },
+    {
+        "title": "Minesweeper",
+        "linkText": "Created November 2020",
+        "href": "https://github.com/cowsoncows/IntroToProgramming_Project",
+        "bullets": [
+            "Terminal-based implementation of the classic game Minesweeper"
+        ],
+        "tech": [
+            "Python",
+            "PyCharm"
+        ]
+    },
+    {
+        "title": "This Website!",
+        "linkText": "Published September 2022",
+        "href": "",
+        "bullets": [
+            "Personal website to showcase myself and my portfolio",
+            "Interacted with Spotify's Developer API",
+            "Utilized server-side rendering"
+        ],
+        "tech": [
+            "JavaScript",
+            "CSS",
+            "React.js",
+            "Next.js",
+            "Framer Motion",
+            "Git"
+        ]
+    },
+    {
+        "title": "Tic Tac Toe",
+        "linkText": "Created January 2023",
+        "img": "./tictactoe.png",
+        "href": "https://tic-tac-toe.me",
+        "bullets": [
+            "Single page application acting as the interface to a local tic tac toe game",
+            "Used React hooks to synchronize the UI state with the game state"
+        ],
+        "tech": [
+            "JavaScript",
+            "CSS",
+            "React.js",
+            "Git"
+        ]
+    }
+]
