@@ -14,14 +14,20 @@ function About({ topTracks, playingTrack, topShows }) {
                 </Slidein>
                 <h3>I&apos;m Nicky.</h3> 
                 <p>
-                    I&apos;m a student from Montréal, Québec, Canada and am currently pursuing a bachelor&apos;s degree in Computer Science 
-                    at the University of Waterloo in Ontario, Canada. I expect to graduate by April 2026 and hope to work as a software engineer!
-                    In the meantime, I am on the hunt for internships to gain me valuable industry experience.
+                    I&apos;m a student from Montréal, Canada, pursuing a bachelor&apos;s degree in Computer Science 
+                    at the University of Waterloo. 
                 </p>
-                <br/>
-                <h3>Want to know more?</h3>
+                <h3>Get to know me!</h3>
                 <div className='grid'>
-                    <Accordion title="What Kind of Music Do I Like?">
+                    <Accordion title='What are my technical areas of interest?'>
+                        <ul>
+                            <li>Game development</li>
+                            <li>Front-end development</li>
+                            <li>IoT</li>
+                            <li>Robotics</li>
+                        </ul>
+                    </Accordion>
+                    <Accordion title='What Kind of Music Do I Like?'>
                         <p>In the last 4 weeks, my top songs on <Link href='https://open.spotify.com/user/1yblwfww13uw55zkxwfcsftix?si=a222118201384056' color='#15133C'>Spotify</Link> have been...</p>
                         <Music tracks={topTracks} />
                         {playingTrack && playingTrack.is_playing && (
@@ -31,7 +37,7 @@ function About({ topTracks, playingTrack, topShows }) {
                             </>
                         )}
                     </Accordion>
-                    <Accordion title="What Podcasts Do I Like?">
+                    <Accordion title='What Podcasts Do I Like?'>
                         <p>These are my currently saved podcasts. Check them out!</p>
                         <Music tracks={topShows} />
                     </Accordion>
